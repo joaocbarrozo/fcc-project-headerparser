@@ -49,5 +49,5 @@ app.get('/api/whoami', (req, res) => {
   }
   
   // Send response
-  res.jsonp(userInfo)
+  res.json(userInfo)
 });
